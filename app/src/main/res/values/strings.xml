@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">mobileProject</string>
+    <string name="login">login</string>
+    <string name="signup">sign up</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="submit">submit</string>
+    <string name="logInTitle">Log In</string>
+    <string name="signUpTitle">Sign Up</string>
+    <string name="Authors_prompt">Authors</string>
+
+    <string-array name="authors_arrays">
+        <item>kak toei</item>
+        <item>kak kai</item>
+        <item>kak praew</item>
+        <item>meaw hia</item>
+    </string-array>
+
+
+</resources>
