@@ -10,6 +10,18 @@
     <string name="logInTitle">Log In</string>
     <string name="signUpTitle">Sign Up</string>
     <string name="Authors_prompt">Authors</string>
+    <string name="Genre">Genre</string>
+    <string name="search">Search</string>
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+    <string name="fav">Favorite</string>
+
+    <string-array name="Genre_arrays">
+        <item>Fantasy</item>
+        <item>Romance</item>
+        <item>Adventure</item>
+        ]
+    </string-array>
 
     <string-array name="authors_arrays">
         <item>kak toei</item>

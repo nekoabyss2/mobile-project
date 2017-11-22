@@ -24,8 +24,10 @@
         <activity android:name=".SignupActivity" />
         <activity
             android:name=".LoginActivity"
-            android:label="@string/title_activity_login" />
-        <activity android:name=".logInActivity"></activity>
+            android:label="@string/logInTitle" />
+        <activity android:name=".logInActivity" />
+        <activity android:name=".searchActivity" />
+        <activity android:name=".favoriteActivity"></activity>
     </application>
 
 </manifest>

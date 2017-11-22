@@ -55,7 +55,8 @@
         android:layout_height="30dp"
         android:layout_marginEnd="40dp"
         android:background="@color/white"
-        android:text="@string/username"
+        android:hint="@string/username"
+        android:gravity="center_vertical"
         app:layout_constraintBottom_toTopOf="@+id/signupPasswordInput"
         android:layout_marginBottom="30dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -85,7 +86,8 @@
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="30dp"
         android:background="@color/white"
-        android:text="@string/password"
+        android:hint="@string/password"
+        android:gravity="center_vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/nameInput"
         tools:layout_editor_absoluteY="196dp" />
@@ -113,7 +115,8 @@
         android:layout_height="30dp"
         android:layout_marginEnd="40dp"
         android:background="@color/white"
-        android:text="@string/name"
+        android:hint="@string/name"
+        android:gravity="center_vertical"
         app:layout_constraintEnd_toEndOf="parent"
         tools:layout_editor_absoluteY="258dp" />
 
@@ -135,12 +138,13 @@
         app:layout_constraintTop_toBottomOf="@+id/name" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/emailInput"
         android:layout_width="200dp"
         android:layout_height="30dp"
         android:layout_marginEnd="40dp"
         android:background="@color/white"
-        android:text="@string/email"
+        android:hint="@string/email"
+        android:gravity="center_vertical"
         app:layout_constraintEnd_toEndOf="parent"
         tools:layout_editor_absoluteY="314dp" />
 
@@ -156,6 +160,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        app:layout_constraintTop_toBottomOf="@+id/emailInput" />
 
 </android.support.constraint.ConstraintLayout>
