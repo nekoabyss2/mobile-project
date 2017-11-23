@@ -27,7 +27,9 @@
             android:label="@string/logInTitle" />
         <activity android:name=".logInActivity" />
         <activity android:name=".searchActivity" />
-        <activity android:name=".favoriteActivity"></activity>
+        <activity android:name=".favoriteActivity" />
+        <activity android:name=".storyBoardActivity" />
+        <activity android:name=".usersListViewActivity"></activity>
     </application>
 
 </manifest>

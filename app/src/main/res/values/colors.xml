@@ -7,4 +7,6 @@
     <color name="pastelYellow">#F2DD91</color>
     <color name="white">#FFFFFF</color>
     <color name="pastelPink">#FFE6E6</color>
+    <color name="lightGreyish">#D9D9D9</color>
+    <color name="darkGrey">#616161</color>
 </resources>
