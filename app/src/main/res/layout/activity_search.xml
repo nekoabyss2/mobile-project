@@ -8,7 +8,7 @@
     tools:context="com.egci428.mobileproject.searchActivity">
 
     <TextView
-        android:id="@+id/signupTitle"
+        android:id="@+id/searchTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
