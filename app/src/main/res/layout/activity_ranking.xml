@@ -9,37 +9,37 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/pastelPink"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="26dp"
         tools:layout_editor_absoluteY="0dp">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/novelView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@android:color/holo_blue_bright"
-            android:text="         Novel"
-            android:textColor="@color/white"
+            android:background="#d9d9d9"
+            android:text="Novel"
+            android:textAlignment="center"
             android:textSize="30sp" />
 
         <android.support.design.widget.TabLayout
-            android:id="@+id/tabTool"
+            android:id="@+id/tab"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@android:color/holo_blue_bright"
-            app:tabTextColor="@color/white">
+            android:layout_height="wrap_content">
 
             <android.support.design.widget.TabItem
                 android:id="@+id/topTab"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@color/pastelPink"
                 android:text="Top 50 List" />
 
             <android.support.design.widget.TabItem
-                android:id="@+id/updateTab"
+                android:id="@+id/lastestUpdateTab"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lastest Update" />
+                android:text="Lastest Update " />
 
             <android.support.design.widget.TabItem
                 android:id="@+id/genreTab"
@@ -49,31 +49,22 @@
         </android.support.design.widget.TabLayout>
 
         <ListView
-            android:id="@+id/topList"
+            android:id="@+id/list"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/pastelPink"/>
+            android:layout_height="461dp"
+            android:layout_margin="20dp"
+            android:background="@color/cardview_light_background" />
 
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/searchBtn"
-        android:layout_width="35dp"
-        android:layout_height="29dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/search" />
-
-    <ImageView
-        android:id="@+id/toProfileBtn"
-        android:layout_width="35dp"
-        android:layout_height="34dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:id="@+id/imageView"
+        android:layout_width="43dp"
+        android:layout_height="44dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/hamburger" />
+
+
 
 </android.support.constraint.ConstraintLayout>
