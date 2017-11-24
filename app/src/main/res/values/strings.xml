@@ -15,7 +15,6 @@
     <string name="title">Title</string>
     <string name="author">Author</string>
     <string name="fav">Favorite</string>
-    <string name="authorStoryboard">Author Storyboard</string>
 
     <string-array name="Genre_arrays">
         <item>Fantasy</item>

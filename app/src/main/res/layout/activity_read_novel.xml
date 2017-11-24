@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:overScrollMode="never"
+    tools:context="com.egci428.mobileproject.readNovel">
+
+    <LinearLayout
+        android:layout_width="414dp"
+        android:layout_height="615dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/novelName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#d9d9d9"
+            android:text="[Insert Novel Name]"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffe6e6"
+            android:overScrollMode="ifContentScrolls"
+            android:scrollbarTrackVertical="@color/pastelPink"
+            android:verticalScrollbarPosition="right">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/novelData"
+                    android:layout_width="370dp"
+                    android:layout_height="605dp"
+                    android:layout_margin="20dp"
+                    android:background="@color/cardview_light_background"
+                    android:elevation="@dimen/cardview_default_elevation"
+                    android:text="[Insert Novel Data]"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="413dp" />
+
+                <TextView
+                    android:id="@+id/commentText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:text="Comments"
+                    android:textSize="30sp" />
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/commentCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="166dp"
+                    android:layout_margin="20dp"
+                    android:elevation="@dimen/cardview_default_elevation"
+                    android:visibility="visible"
+                    app:cardBackgroundColor="@color/cardview_light_background" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/backBtn"
+        android:layout_width="39dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/bookmarkBtn"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bookmark" />
+
+</android.support.constraint.ConstraintLayout>
