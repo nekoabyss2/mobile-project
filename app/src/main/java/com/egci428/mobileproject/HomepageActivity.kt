@@ -12,7 +12,7 @@ class HomepageActivity : AppCompatActivity() {
         setContentView(R.layout.activity_homepage)
 
 //        mainLoginBtn.setOnClickListener{
-//            var intent = Intent(this,logInActivity::class.java)
+//            var intent = Intent(this,loginActivity::class.java)
 //            startActivity(intent)
 //        }
 

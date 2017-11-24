@@ -7,17 +7,27 @@
     android:background="@color/pastelPink"
     tools:context="com.egci428.mobileproject.HomepageActivity">
 
+    <ImageView
+        android:id="@+id/homepage_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/unicorn_cat"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
     <LinearLayout
+        android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
-        android:layout_height="185dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.699">
+        app:layout_constraintVertical_bias="0.855">
 
         <Button
             android:id="@+id/mainLoginBtn"

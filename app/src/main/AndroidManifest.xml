@@ -22,18 +22,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".SignupActivity" />
-        <activity
-            android:name=".LoginActivity"
-            android:label="@string/logInTitle" />
-        <activity android:name=".logInActivity" />
+        <activity android:name=".loginActivity" android:label="@string/logInTitle" />
         <activity android:name=".searchActivity" />
         <activity android:name=".favoriteActivity" />
-        <activity android:name=".rankingPage" />
+        <!--<activity android:name=".rankingPage" />-->
         <activity android:name=".rankingActivity" />
         <activity android:name=".readNovel" />
         <activity android:name=".storyHomepage" />
         <activity android:name=".authorStoryBoard" />
-        <activity android:name=".userProfile"></activity>
+        <activity android:name=".userProfile" />
     </application>
 
 </manifest>
