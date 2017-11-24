@@ -7,16 +7,6 @@
     android:background="@color/pastelPink"
     tools:context="com.egci428.mobileproject.favoriteActivity">
 
-    <ImageView
-        android:id="@+id/favImage"
-        android:layout_width="200dp"
-        android:layout_height="160dp"
-        app:srcCompat="@drawable/fav_neko"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/favTitle"
-        app:layout_constraintBottom_toTopOf="@id/favList"/>
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -26,6 +16,16 @@
             android:layout_height="wrap_content"
             android:orientation="vertical" />
     </ScrollView>
+
+    <ImageView
+        android:id="@+id/favImage"
+        android:layout_width="200dp"
+        android:layout_height="160dp"
+        app:srcCompat="@drawable/fav_neko"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/favTitle"
+        app:layout_constraintBottom_toTopOf="@id/favList"/>
 
     <TextView
         android:id="@+id/favTitle"
