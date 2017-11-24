@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/unicorn_cat"
         android:layout_marginLeft="38dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="40dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 

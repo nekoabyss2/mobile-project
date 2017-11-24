@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".SignupActivity" />
-        <activity android:name=".loginActivity" android:label="@string/logInTitle" />
+        <activity android:name=".LoginActivity" android:label="@string/logInTitle" />
         <activity android:name=".searchActivity" />
         <activity android:name=".favoriteActivity" />
         <!--<activity android:name=".rankingPage" />-->

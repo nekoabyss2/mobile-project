@@ -9,10 +9,10 @@ class HomepageActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_homepage)
+        setContentView(R.layout.activity_search)
 
 //        mainLoginBtn.setOnClickListener{
-//            var intent = Intent(this,loginActivity::class.java)
+//            var intent = Intent(this,LoginActivity::class.java)
 //            startActivity(intent)
 //        }
 
